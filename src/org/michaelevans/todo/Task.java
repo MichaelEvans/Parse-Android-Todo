@@ -2,6 +2,7 @@ package org.michaelevans.todo;
 
 import com.parse.ParseClassName;
 import com.parse.ParseObject;
+import com.parse.ParseUser;
 
 @ParseClassName("Task")
 public class Task extends ParseObject{
@@ -23,5 +24,9 @@ public class Task extends ParseObject{
 	
 	public void setDescription(String description){
 		put("description", description);
+	}
+
+	public void setUser(ParseUser currentUser) {
+		put("user", currentUser);
 	}
 }

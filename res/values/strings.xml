@@ -5,5 +5,15 @@
     <string name="action_settings">Settings</string>
     <string name="input_hint">Enter a Task</string>
     <string name="submit_button">Submit</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">Register</string>
+    <string name="action_logout">Logout</string>
+    <string name="username">Username:</string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="password_label">Password:</string>
+    <string name="already_have_an_account_label">Already Have An Account? Log In!</string>
+    <string name="sign_in_label">Sign In</string>
+    <string name="dont_have_an_account_label">Don&amp;apos;t have an account? Register!</string>
 
 </resources>
