@@ -67,7 +67,9 @@ public class TodoActivity extends Activity implements OnItemClickListener {
 			public void done(List<Task> tasks, ParseException error) {
 				if(tasks != null){
 					mAdapter.clear();
-					mAdapter.addAll(tasks);
+					for (int i = 0; i < tasks.size(); i++) {
+						mAdapter.add(tasks.get(i));
+					}
 				}
 			}
 		});
